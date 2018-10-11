@@ -98,6 +98,11 @@ format.datetime = 2006-01-02 15:04
 # Chunked encoding can decrease the time to first byte on the client side by
 # sending data before the entire template has been fully rendered.
 results.chunked = false
+
+# Compression of your HTML and CSS files with gzip typically saves around 
+# fifty to seventy percent of the file size. This means that it takes less 
+# time to load your pages, and less bandwidth is used over all. 
+# To enable compression, set value to true.
 results.compressed = false
 
 
