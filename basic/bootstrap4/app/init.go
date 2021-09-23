@@ -1,9 +1,10 @@
 package app
 
 import (
-	"github.com/revel/revel"
 	_ "github.com/revel/modules"
-
+	_ "github.com/revel/modules/static"
+	_ "github.com/revel/modules/testrunner"
+	"github.com/revel/revel"
 )
 
 var (
